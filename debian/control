@@ -1,0 +1,18 @@
+Source: google-chrome-apt-source
+Section: misc
+Priority: optional
+Maintainer: Zhihsian Que <i@zhihsian.me>
+Build-Depends:
+ debhelper-compat (= 12),
+Standards-Version: 4.4.0
+Homepage: https://github.com/zhihsian-debian-repo/google-chrome-apt-source
+Vcs-Browser: https://github.com/zhihsian-debian-repo/google-chrome-apt-source
+Vcs-Git: https://github.com/zhihsian-debian-repo/google-chrome-apt-source.git
+
+Package: google-chrome-apt-source
+Architecture: any
+Depends:
+ ${misc:Depends},
+ ${shlibs:Depends},
+Description: Apt source of Google Chrome
+ Apt source and public key of Google Chrome.
